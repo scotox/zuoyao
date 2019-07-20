@@ -1,0 +1,34 @@
+section.cover.has-mask .mask {
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.25),hsla(0, 0%, 100%, 0.75));
+    background-color: transparent;
+    opacity: 1;
+}
+
+section.cover .cover-main>p:last-child a {
+    background-color: var(--theme-color, #09b900);
+    color: #fff;
+}
+
+section.cover h1 .anchor span{
+    font-family: 'Lobster', cursive;
+    /*color: var(--theme-color);*/
+    color: var(--scotnt-cover-h1-anchor-span-color);
+    /*-webkit-text-stroke: 1px var(--scotnt-cover-h1-anchor-span-color);*/
+    /*font-weight: bold;*/
+    font-size: 1.5em;
+}
+
+section.cover .cover-main>p:last-child a .iconfont {
+    font-size: 1em;
+}
+
+.sidebar>h1 a {
+    font-family: 'Lobster', cursive;
+}
+
+.app-nav a {
+    /*color: #ffffff;*/
+    font-size: 16px;
+    text-decoration: none;
+    transition: color .3s;
+}
