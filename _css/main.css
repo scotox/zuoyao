@@ -32,3 +32,18 @@ section.cover .cover-main>p:last-child a .iconfont {
     text-decoration: none;
     transition: color .3s;
 }
+
+.sidebar-toggle {
+    position: fixed;
+    display: none;
+}
+
+
+.sidebar {
+    display: none;
+}
+
+.content {
+    /*padding-top: 10px;*/
+    left: 0;
+}
